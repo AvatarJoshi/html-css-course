@@ -1,0 +1,135 @@
+body {
+  color: #444;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+  /* color: rgb(32, 32, 32); */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(32, 32, 32);
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a {
+  color: blue;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+li {
+  color: black;
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+/* footer p {
+  font-size: 12px;
+} */
+
+/* Styling by id */
+#author {
+  font-style: italic;
+}
+
+#copyright {
+  font-size: 14px;
+}
+
+/* Styling by class */
+.related-author {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.related-posts {
+  list-style: none;
+}
+
+/* .main-header {
+  background-color: #f7f7f7;
+} */
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 2.5px solid blue;
+  border-bottom: 2.5px solid blue;
+}
+
+body {
+  background-color: bisque;
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+/* li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  color: red;
+} */
+
+/* Styling Hyperlinks */
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+/* a:visited {
+  color: grey;
+} */
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* Resolving Conflicts */
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+}
