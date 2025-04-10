@@ -2,6 +2,7 @@ body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px;
+  position: relative;
 }
 
 /* .main-header {
@@ -98,6 +99,7 @@ body {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 /* .first-li {
@@ -156,4 +158,14 @@ footer p {
 .post-img {
   width: 50%;
   height: auto;
+}
+
+.like {
+  width: 10%;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
